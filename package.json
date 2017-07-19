@@ -1,0 +1,35 @@
+{
+  "name": "npm-elements-example",
+  "version": "1.0.0",
+  "description": "## Setup",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bryandcoulter/npm-elements-example.git"
+  },
+  "author": "Bryan Coulter",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/bryandcoulter/npm-elements-example/issues"
+  },
+  "homepage": "https://github.com/bryandcoulter/npm-elements-example#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.6.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "html-webpack-plugin": "^2.29.0",
+    "polymer-webpack-loader": "^1.2.1",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  },
+  "dependencies": {
+    "@npm-polymer/npm-polymer": "0.0.4",
+    "date-fns": "^1.28.5"
+  }
+}
