@@ -7,7 +7,7 @@ npm i
 bower i
 npm start
 ```
-Changes in comparison to [polymer-starter-kit demo](https://github.com/webpack-contrib/polymer-webpack-loader/tree/master/demo)
+Changes in comparison to [polymer-webpack-loader demo](https://github.com/webpack-contrib/polymer-webpack-loader/tree/master/demo)
 
 1. Added ignoreLinksFromPartialMatches option to the loader to ensure that any relative path links to polymer.html inside of an npm element would be ignored since my-element.html is linking to the bower_components version of polymer.html.
 
